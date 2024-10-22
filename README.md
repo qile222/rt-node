@@ -95,7 +95,7 @@ For unix like systems
 ```shell
 $ cmake -B./build -H. -DSAMPLE=unix -DJS_ROOT=./samples -DJERRY_PROFILE=es2015-subset
 $ make -C./build
-$ ./build/rtnode-unix/rtnode-unix # run sample
+$ ./build/samples/unix/rtnode-unix # run sample
 ```
 
 For esp-idf:
